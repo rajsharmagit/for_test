@@ -1,0 +1,7 @@
+---
+  - name: for testing git
+    hosts: all
+    tasks:
+      - name: display a message
+        debug:
+          msg: Hello git
